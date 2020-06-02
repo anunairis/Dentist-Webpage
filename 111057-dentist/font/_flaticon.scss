@@ -1,0 +1,89 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 22/06/2016 15:06
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-anesthesia-dentist-injection-diagonal-symbol:before { content: "\f100"; }
+.flaticon-apple:before { content: "\f101"; }
+.flaticon-dental-caries:before { content: "\f102"; }
+.flaticon-dental-floss:before { content: "\f103"; }
+.flaticon-dentist:before { content: "\f104"; }
+.flaticon-dentist-bottle-with-liquid:before { content: "\f105"; }
+.flaticon-dentist-drugs-container:before { content: "\f106"; }
+.flaticon-dentist-tools:before { content: "\f107"; }
+.flaticon-dentist-tools-1:before { content: "\f108"; }
+.flaticon-dentist-tooth-with-metallic-root:before { content: "\f109"; }
+.flaticon-dentists-drill-tool:before { content: "\f10a"; }
+.flaticon-drop:before { content: "\f10b"; }
+.flaticon-female-mouth-lips:before { content: "\f10c"; }
+.flaticon-first-aid-kit-bag:before { content: "\f10d"; }
+.flaticon-forceps-of-dentist-tools:before { content: "\f10e"; }
+.flaticon-lifeline-of-heartbeat-in-a-circle:before { content: "\f10f"; }
+.flaticon-note-on-a-clipboard:before { content: "\f110"; }
+.flaticon-pill-capsule:before { content: "\f111"; }
+.flaticon-tooth:before { content: "\f112"; }
+.flaticon-tooth-outline:before { content: "\f113"; }
+.flaticon-tooth-outline-1:before { content: "\f114"; }
+.flaticon-tooth-zoom:before { content: "\f115"; }
+.flaticon-toothbrush:before { content: "\f116"; }
+.flaticon-toothpaste-tube:before { content: "\f117"; }
+.flaticon-zoom-on-tooth:before { content: "\f118"; }
+    
+    $font-Flaticon-anesthesia-dentist-injection-diagonal-symbol: "\f100";
+    $font-Flaticon-apple: "\f101";
+    $font-Flaticon-dental-caries: "\f102";
+    $font-Flaticon-dental-floss: "\f103";
+    $font-Flaticon-dentist: "\f104";
+    $font-Flaticon-dentist-bottle-with-liquid: "\f105";
+    $font-Flaticon-dentist-drugs-container: "\f106";
+    $font-Flaticon-dentist-tools: "\f107";
+    $font-Flaticon-dentist-tools-1: "\f108";
+    $font-Flaticon-dentist-tooth-with-metallic-root: "\f109";
+    $font-Flaticon-dentists-drill-tool: "\f10a";
+    $font-Flaticon-drop: "\f10b";
+    $font-Flaticon-female-mouth-lips: "\f10c";
+    $font-Flaticon-first-aid-kit-bag: "\f10d";
+    $font-Flaticon-forceps-of-dentist-tools: "\f10e";
+    $font-Flaticon-lifeline-of-heartbeat-in-a-circle: "\f10f";
+    $font-Flaticon-note-on-a-clipboard: "\f110";
+    $font-Flaticon-pill-capsule: "\f111";
+    $font-Flaticon-tooth: "\f112";
+    $font-Flaticon-tooth-outline: "\f113";
+    $font-Flaticon-tooth-outline-1: "\f114";
+    $font-Flaticon-tooth-zoom: "\f115";
+    $font-Flaticon-toothbrush: "\f116";
+    $font-Flaticon-toothpaste-tube: "\f117";
+    $font-Flaticon-zoom-on-tooth: "\f118";

@@ -1,0 +1,25 @@
+{
+  "name": "desntist",
+  "version": "1.0.0",
+  "description": "anu's page",
+  "main": "js.js",
+  "scripts": {
+    "compile:sass": "node-sass style/sass/style.scss style/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anunairis/Dentist.git"
+  },
+  "author": "Anu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anunairis/Dentist/issues"
+  },
+  "homepage": "https://github.com/anunairis/Dentist#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "smoothscroll-polyfill": "^0.4.4"
+  }
+}

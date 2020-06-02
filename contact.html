@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dentist</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/style/sass/style.css">
+</head>
+
+<body>
+    <div id="page-container">
+        <header class="header">
+            <div class="header-container">
+                <a href="index.html">
+                    <div class="header-container-image"></div>
+                </a>
+                <div class="header-container-contact">
+                    <div class="header-container-contact-container">
+                        <div class="header-container-contact-container-mail">
+                            Make an appointment:
+                            <br>
+                            <button id="button">
+                                <a href="contact.html">
+                                    Write To Us
+                                </a>
+                            </button>
+                            <br>
+                            Or
+                            <br>
+                        </div>
+
+                        <div class="contact-form-phone">
+                            Call Us
+                            <br>
+                            +43 789 789
+                            <br>
+                            <br>
+                        </div>
+
+                        <div class="opening-times">
+                            (MON - FRI)
+                            <br>
+                            9am - 6pm
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="menu-nav">
+
+                <ul class="menu-nav-ul">
+
+                    <div class="menu-nav-container" id="home-contact-page">
+                        <li>
+                            <a href="index.html">
+                                <span>Home</span>
+                                <img src="/image/tooth.svg" alt="Icon" class="nav-icon">
+                            </a>
+                        </li>
+                    </div>
+
+                    <div class="menu-nav-container">
+                        <li>
+                            <span>Contact</span>
+                            <img src="/image/bottle.svg" alt="Icon" class="nav-icon">
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="main-container">
+                <div class="contact-form">
+                    <h3 class="contact-form-titel">
+                        Your smile starts here
+                    </h3>
+                    <p class="contact-form-text">
+                        You can request an appointment here, or give us a call to
+                        get started with our helpful office staff. We look
+                        forward to seeing you!
+                    </p>
+
+                    <p class="request-app">REQUEST AN APPOINTMENT</p>
+
+                    <!-------PEN CODE-------->
+                    <div id="contact-form-input" class="contact-form-input">
+                        <div id="formBody" class="formBody">
+                            <small id="error-text">Please check the fields, something doesn't add up!</small>
+
+
+                            <form action="https://formspree.io/mvowagpd" method="POST" name="contactForm" id="form">
+
+                                <div class="inputContainer" id="inputContainerName">
+                                    <label for="userName">
+                                        <i class="fa fa-lg fa-fw fa-user"></i>
+                                    </label>
+                                    <input name="name" id="userName" type="text" placeholder="John Smith">
+                                </div>
+
+
+                                <div class="inputContainer" id="inputContainerEmail">
+                                    <label for="userEmail">
+                                        <i class="fa fa-lg fa-fw fa-envelope"></i>
+                                    </label>
+                                    <input name="email" id="userEmail" type="email" placeholder="jsmith@gmail.com">
+                                </div>
+
+                                <div class="inputContainer" id="inputContainerMessage">
+                                    <textarea name="feedback" id="userMessage" rows="10"
+                                        placeholder="Enter your message"></textarea>
+                                </div>
+
+                                <button type="submit" id="submitBtn" class="submitBtn">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-container-image">
+                </div>
+
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-container">
+
+                <div class="footer-container-about">
+                    <div class="footer-container-about-titel">ABOUT TOOTHSMITH VIENNA</div>
+                    <div class="footer-container-about-text">
+                        <p>
+                            Toothsmith Vienna is a top-rated local practice for
+                            cosmetic, preventative, and restorative dentistry. Visit us at our convenient
+                            office on 20th district and expect the best care, gentle treatment, and beautiful results
+                            from your dentist!</p>
+                    </div>
+
+                    <div class="footer-icon">
+                        <a href="https://www.facebook.com/anu.nairis">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                        <a href="https://twitter.com/anu_nairis">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-container-contact">
+                    <div class="footer-container-contact-titel">CONTACT US</div>
+                    <div class="footer-container-contact-text">
+                        <p class="footer-container-contact-text-toothsmith">Toothsmith Vienna</p>
+                        <p>Brigittagasse 22, 1200 </p>
+                        <p>Vienna, Austria</p>
+                        <br>
+                        <p><i class="fas fa-phone"></i> +43 789 789</p>
+                        <p><i class="fas fa-envelope"></i> toothsmithvienna@gmail.com</p>
+
+                    </div>
+                </div>
+
+                <div class="footer-container-image">
+
+                    <div class="footer-container-image-text"></div>
+                    <div class="footer-container-image-maps">
+
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="js.js"></script>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+</body>
+
+</html>

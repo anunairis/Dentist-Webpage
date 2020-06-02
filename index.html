@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dentist</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
+
+    <link rel="stylesheet" href="/style/sass/style.css">
+</head>
+
+<body>
+    <div id="page-container">
+        <header class="header">
+            <div class="header-container">
+                <a href="index.html">
+                    <div class="header-container-image"></div>
+                </a>
+                <div class="header-container-contact">
+                    <div class="header-container-contact-container">
+                        <div class="header-container-contact-container-mail">
+                            Make an appointment:
+                            <br>
+                            <button id="button">
+                                <a href="contact.html">
+                                    Write To Us
+                                </a>
+                            </button>
+                            <br>
+                            Or
+                            <br>
+                        </div>
+
+                        <div class="contact-form-phone">
+                            Call Us
+                            <br>
+                            +43 789 789
+                            <br>
+                            <br>
+                        </div>
+
+                        <div class="opening-times">
+                            (MON - FRI)
+                            <br>
+                            9am - 6pm
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="menu-nav">
+                <ul class="menu-nav-ul">
+                    <div class="menu-nav-container" id="home">
+                        <li>
+                            <a href="index.html">
+                                <span>Home</span>
+                                <img src="/image/tooth.svg" alt="Icon" class="nav-icon">
+                            </a>
+                        </li>
+                    </div>
+
+                    <div class="menu-nav-container" onclick="scrollToDoctor()">
+                        <li>
+                            <span>Our Doctors</span>
+                            <img src="/image/fdoctor.svg" alt="Icon" class="nav-icon">
+                        </li>
+                    </div>
+
+                    <div class="menu-nav-container" onclick="scrollToServices()">
+                        <li>
+                            <span>Services</span>
+                            <img src="/image/equipment.svg" alt="Icon" class="nav-icon">
+                        </li>
+                    </div>
+
+                    <div class="menu-nav-container">
+                        <li>
+                            <a href="contact.html">
+                                <span>Contact</span>
+                                <img src="/image/bottle.svg" alt="Icon" class="nav-icon">
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="landing-page">
+            <div class="landing-page-image">
+            </div>
+
+            <div class="landing-page-text">
+                <div class="landing-page-text-big">
+                    <span>Only real treatment here: We only provide
+                        treatment that we know for sure is
+                        useful to you.</span>
+                </div>
+                <div class="landing-page-text-small">
+                    <span>We understand that healthcare cost is a real concern.
+                        This is why we offer a variety of treatment options for
+                        a variety of budgets and expectations.</span>
+                    <p>No sales talk, no pressure. Why? Because we care about the
+                        things that are important to you.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="doctor-module-titel">
+            <p>Meet Your Doctors <i class="fas fa-arrow-right"></i></p>
+        </div>
+
+        <div class="doctor-module">
+            <div class="doctor-module-image"></div>
+            <div class="doctor-module-container">
+                <h3 class="doctor-module-name">Dr. David Dorough</h3>
+                <div class="doctor-module-text">
+                    <p>Ask any of our patients and they’ll tell you — Dr. David Dorough
+                        is one of the kindest,
+                        friendliest, and most knowledgeable Reno dentists you’ll meet.</p>
+                    <p>Dr. Dorough’s philosophy of care is defined by his commitment to the
+                        most current dental techniques, highest quality materials, and his focus on personalized,
+                        comfortable dental treatments performed by a highly trained team.</p>
+                    <p>Through this gentle, patient-centered approach, Dr. Dorough is proud to maintain the same
+                        standard
+                        of excellence established by our practice’s founder, Dr. Ingrid Panats.</p>
+                    <p>Whatever your reason for seeking a dentist in Reno, NV, Dr. Dorough and our entire staff will
+                        change your perception of what it means to receive a high-quality, friendly, and comfortable
+                        dental experience.</p>
+                    <p>We hope to welcome you to our office very soon.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="doctor-module1">
+            <div class="doctor-module1-container">
+                <h3 class="doctor-module-name">Dr. Marcus Marough</h3>
+                <div class="doctor-module-text">
+                    <p>Ask any of our patients and they’ll tell you — Dr. Marcus Marough
+                        is one of the kindest,
+                        friendliest, and most knowledgeable Reno dentists you’ll meet.</p>
+                    <p>Dr. Marough’s philosophy of care is defined by his commitment to the
+                        most current dental techniques, highest quality materials, and his focus on personalized,
+                        comfortable dental treatments performed by a highly trained team.</p>
+                    <p>Through this gentle, patient-centered approach, Dr. Marough is proud to maintain the same
+                        standard
+                        of excellence established by our practice’s founder, Dr. June Lavats.</p>
+                    <p>Whatever your reason for seeking a dentist in Reno, NV, Dr. Marough and our entire staff will
+                        change your perception of what it means to receive a high-quality, friendly, and comfortable
+                        dental experience.</p>
+                    <p>We hope to welcome you to our office very soon.</p>
+                </div>
+            </div>
+            <div class="doctor-module1-image"></div>
+        </div>
+
+        <div id="service-package-titel">
+            <p>Our Cost Savings Packages <i class="fas fa-arrow-right"></i></p>
+        </div>
+
+        <div class="service-package-module">
+
+            <div class="service-package-module-third">
+                <div class="service-package-module-third-image"></div>
+                <div class="service-package-module-third-container">
+                    <div class="number three">1</div>
+                    <h3 class="service-package-module-title">Conventional Implants</h3>
+                    <ul class="service-package-module-list">
+                        <li><i class="fa fa-circle"></i>Short down time</li>
+                        <li><i class="fa fa-circle"></i>Payments in installments</li>
+                        <li><i class="fa fa-circle"></i>Guaranteed success</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-package-module-second">
+                <div class="service-package-module-second-image"></div>
+                <div class="service-package-module-second-container">
+                    <div class="number two">2</div>
+                    <h3 class="service-package-module-title">Wisdom Teeth Surgery</h3>
+                    <ul class="service-package-module-list">
+                        <li><i class="fa fa-circle"></i>100% coverage</li>
+                        <li><i class="fa fa-circle"></i>Progressive payment</li>
+                        <li><i class="fa fa-circle"></i>Conservative surgical protocol</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-package-module-first">
+                <div class="service-package-module-first-image"></div>
+                <div class="service-package-module-first-container">
+                    <div class="number one">3</div>
+                    <h3 class="service-package-module-title">Metal Braces <span class="hidden-text">aaaaaaaaa</span>
+                    </h3>
+                    <ul class="service-package-module-list">
+                        <li><i class="fa fa-circle"></i>Low initial fees</li>
+                        <li><i class="fa fa-circle"></i>Progressive payment</li>
+                        <li><i class="fa fa-circle"></i>No surprise fees</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service-package-module-fourth">
+                <div class="service-package-module-fourth-image"></div>
+                <div class="service-package-module-fourth-container">
+                    <div class="number four">4</div>
+                    <h3 class="service-package-module-title">Root Canal Treatment</h3>
+                    <ul class="service-package-module-list">
+                        <li><i class="fa fa-circle"></i>Single visit treatment option</li>
+                        <li><i class="fa fa-circle"></i>Rapid pain relief</li>
+                        <li><i class="fa fa-circle"></i>No surprise fees</li>
+                </div>
+            </div>
+        </div>
+
+        <div class="customer-review3">
+        </div>
+        <div class="customer-review">
+            <div class="customer-review-text">
+                <blockquote>
+                    <p>The staff is so nice, professional, and efficient. I haven’t met one person I didn’t
+                        like and I
+                        feel like they all care. I didn’t know what a great dentist was until I went to Damonte Ranch
+                        Dental
+                        Care. Thank you for taking care of my teeth!
+                    </p>
+                </blockquote>
+            </div>
+        </div>
+        <div class="customer-review2">
+        </div>
+
+        <div class="as-seen">
+
+
+            <div class="as-seen-container">
+
+                <div class="as-seen-text">
+                    <p class="as-seen-text-title">We work with the best, for you.</p>
+                    <p class="as-seen-text-subtext">At Dental Care Seattle, our doctors are recognized by leading
+                        industry organizations, and work
+                        with the best clinical partners and labs to
+                        provide top-notch dental treatment for you.</p>
+                </div>
+
+                <div class="as-seen-image-container">
+                    <div class="as-seen-image1">
+                    </div>
+                    <div class="as-seen-image2">
+                    </div>
+                    <div class="as-seen-image3">
+                    </div>
+                    <div class="as-seen-image4">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="request-app">
+            <div class="request-app-image">
+                <div class="request-app-text">
+                    <h3 class="request-app-text-titel">We look forward to hearing from YOU</h3>
+                    <button id="button1">
+                        <a href="contact.html">
+                            Request An Appointment
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-container">
+
+                <div class="footer-container-about">
+                    <div class="footer-container-about-titel">ABOUT TOOTHSMITH VIENNA</div>
+                    <div class="footer-container-about-text">
+                        <p>
+                            Toothsmith Vienna is a top-rated local practice for
+                            cosmetic, preventative, and restorative dentistry. Visit us at our convenient
+                            office on 20th district and expect the best care, gentle treatment, and beautiful results
+                            from your dentist!</p>
+                    </div>
+
+                    <div class="footer-icon">
+                        <a href="https://www.facebook.com/anu.nairis">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                        <a href="https://twitter.com/anu_nairis">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-container-contact">
+                    <div class="footer-container-contact-titel">CONTACT US</div>
+                    <div class="footer-container-contact-text">
+                        <p class="footer-container-contact-text-toothsmith">Toothsmith Vienna</p>
+                        <p>Brigittagasse 22, 1200 </p>
+                        <p>Vienna, Austria</p>
+                        <br>
+                        <p><i class="fas fa-phone"></i> +43 789 789</p>
+                        <p><i class="fas fa-envelope"></i> toothsmithvienna@gmail.com</p>
+
+                    </div>
+                </div>
+
+                <div class="footer-container-image">
+
+                    <div class="footer-container-image-text"></div>
+                    <div class="footer-container-image-maps">
+
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+    <!-- 
+    <div class="icon-text">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+        from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+
+ 
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+    <script src="js.js"></script>
+</body>
+
+</html>
